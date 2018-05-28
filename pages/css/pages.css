@@ -27,7 +27,19 @@ img {
 .kleur4 {
     background-color: #EBE9E9
 }
-
+.kleuren{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+.kleur1 .kleur2 .kleur3 .kleur4 {
+    display: inline-block;
+    width: 15%;
+    margin: 1%;
+    padding: .5em;
+    box-shadow: 0 1px 4px -1px rgba(0,0,0,.5);
+  }
   
 .kleur {
     display: block;
