@@ -15,38 +15,43 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+.logo {
+    padding-bottom: 0px;
+    padding-top: 0px;
+   
+}
 .kleur1 {
-    background-color: #322A26
+    background-color: #322A26;
+    width: 100px;
+    height: 100px;
+    color: white;
 }
 .kleur2 {
-    background-color: #4D74D1
+    background-color: #4D74D1;
+    width: 100px;
+    height: 100px;
 }
 .kleur3 {
-    background-color:  #DEE2D6
+    background-color:  #DEE2D6;
+    width: 100px;
+    height: 100px;
 }
 .kleur4 {
-    background-color: #EBE9E9
+    background-color: #EBE9E9;
+    width: 100px;
+    height: 100px;
 }
-.kleuren{
-    margin: 0;
-    padding: 0;
+
+.kleuren {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 0px;
+    list-style-type: none;
     text-align: center;
-  }
   
-.kleur1 .kleur2 .kleur3 .kleur4 {
-    display: inline-block;
-    width: 15%;
-    margin: 1%;
-    padding: .5em;
-    box-shadow: 0 1px 4px -1px rgba(0,0,0,.5);
-  }
-  
-.kleur {
-    display: block;
-    height: 0;
-    margin-bottom: .5em;
-    padding: 100% 0 0;
-  }
+}
+
 
 
 
