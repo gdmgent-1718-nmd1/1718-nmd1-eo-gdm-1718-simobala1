@@ -17,6 +17,31 @@ img {
     width:auto;
 }
 
+a {
+    color: #4D74D1;
+    font-size: 18pt;
+}
+
+hr {
+    border: 0;
+    color: #4D74D1;
+    background-color:#4D74D1;
+    height: 2px;
+    margin-top: 20px;
+    
+
+}
+
+h1 {
+    color: #4D74D1;
+}
+
+h2 {
+    color: #4D74D1;
+}
+
+
+
 .logo {
     padding-bottom: 0px;
     padding-top: 0px;
@@ -60,12 +85,9 @@ img {
     list-style-type: none;
     text-align: center;
     
+}   
     
-    
-  
-}
-
-.Titel {
+  .Titel {
     display: inline-block;
     font-family: 'Oswald', sans-serif;
     font-size: 24pt;
