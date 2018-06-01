@@ -26,21 +26,29 @@ img {
     width: 100px;
     height: 100px;
     color: white;
+    border-radius: 10px;
+    margin: 5px;
 }
 .kleur2 {
     background-color: #4D74D1;
     width: 100px;
     height: 100px;
+    border-radius: 10px;
+    margin: 5px;
 }
 .kleur3 {
     background-color:  #DEE2D6;
     width: 100px;
     height: 100px;
+    border-radius: 10px;
+    margin: 5px;
 }
 .kleur4 {
     background-color: #EBE9E9;
     width: 100px;
     height: 100px;
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .kleuren {
@@ -50,6 +58,8 @@ img {
     padding-left: 0px;
     list-style-type: none;
     text-align: center;
+    
+    
     
   
 }
@@ -71,25 +81,32 @@ img {
     line-height: 0em;
     margin-bottom: 0px;
 }
+
+.typo {
+    display: inline-block;
+    margin: 20px;
+    line-height: 10px;
+}   
+
 .button {
-        display: inline-block;
-        background: #4d75d1;
-        padding: 20px 40px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        border-radius: 20px;
-        text-shadow: black 0 1px 0;
-        color: #ffffff;
-        font-size: 24px;
-        font-family: 'Oswald', sans-serif;
-        vertical-align: middle;
-        }
+    display: inline-block;
+    background: #4d75d1;
+    padding: 20px 40px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-shadow: black 0 1px 0;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+    vertical-align: middle;
+}
 
 .button:hover {
-        text-shadow: #000000 0 1px 0;
-        background: #3e779d;
-        color: #fff;
-        }
+    text-shadow: #000000 0 1px 0;
+    background: #3e779d;
+    color: #fff;
+}
 
 .texturen {
     display: inline-block;
