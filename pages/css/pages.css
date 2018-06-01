@@ -67,7 +67,7 @@ img {
 .Titel {
     display: inline-block;
     font-family: 'Oswald', sans-serif;
-    font-size: 30pt;
+    font-size: 24pt;
     line-height: 0em;
     margin-bottom: 0px;
 
@@ -77,15 +77,16 @@ img {
 .plattetekst {
     display: inline-block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 20pt;
+    font-size: 14pt;
     line-height: 0em;
     margin-bottom: 0px;
 }
 
 .typo {
     display: inline-block;
-    margin: 20px;
-    line-height: 10px;
+    margin-right: 20px;
+    line-height: 1.5em;
+
 }   
 
 .button {
@@ -100,6 +101,7 @@ img {
     font-size: 24px;
     font-family: 'Oswald', sans-serif;
     vertical-align: middle;
+    margin-bottom: 10px;
 }
 
 .button:hover {
@@ -113,11 +115,14 @@ img {
     max-width: 25%;
     max-height: 25%;
     
-    
 }
 
+.afbeelding {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+
         
-
-
-
+}
 
