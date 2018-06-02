@@ -19,7 +19,10 @@ img {
 
 a {
     color: #4D74D1;
-    font-size: 18pt;
+    font-size: 16pt;
+    text-decoration: none;
+    
+
 }
 
 hr {
